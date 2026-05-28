@@ -70,9 +70,35 @@
 
                 <textarea placeholder="Paste your video script here..."></textarea>
 
-                <button>
-                    Analyze Script
-                </button>
+                <button onclick="analyzeScript()">
+    Analyze Script
+</button>
+
+<!-- Result Section -->
+
+<div class="result-box" id="resultBox">
+
+    <h2>Analysis Result</h2>
+
+    <div class="result-card">
+
+        <p><strong>Retention Score:</strong>
+            <span id="score">0%</span>
+        </p>
+
+        <p><strong>Viral Prediction:</strong>
+            <span id="prediction">-</span>
+        </p>
+
+        <p><strong>AI Suggestion:</strong>
+            <span id="suggestion">-</span>
+        </p>
+
+    </div>
+
+</div>
+
+<script src="js/analyze.js"></script>
 
             </div>
 
