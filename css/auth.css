@@ -108,3 +108,27 @@ button:hover{
     color: #8f94fb;
     text-decoration: none;
 }
+/* Signup Box */
+
+.signup-box{
+    width: 500px;
+}
+
+/* Select & Textarea */
+
+select,
+textarea{
+    padding: 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+
+    font-size: 16px;
+}
+
+textarea{
+    resize: none;
+    height: 120px;
+}
